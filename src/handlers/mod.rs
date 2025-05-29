@@ -20,10 +20,10 @@ use std::os::unix::fs::PermissionsExt;
 use tar::Archive;
 use version::extract_version_from_release;
 
-pub mod default;
 pub mod download;
 pub mod install;
 pub mod release;
+pub mod self_;
 pub mod show;
 pub mod update;
 pub mod version;
